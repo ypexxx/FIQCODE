@@ -9,27 +9,157 @@
 
 body {
     font-family: "poppins", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+    /* height: 2000px; */
 }
 
+
+/* navbar */
 .navbar {
-    background-color: #F9F9F9;
+    background-color: #ffffff; 
     margin: 0;
-    padding: 20px 30px;
+    padding: 10px 0 10px 0;
+    height: 54px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 6px 26px 3px;
+    z-index: 9999;
+    position: relative;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+.navbar .container {
     align-items: center;
 }
 
-.menu {
-    margin: 0;
-    display: flex;
-    list-style: none;
-    padding: 0;
+.navbar .container .navbar-nav ul {
+    position: absolute;
+    top: 100%;
 }
 
-.menu li {
-    padding-right: 10px;
+.navbar .container .navbar-nav .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background-color: #ffffff;
+    top: -300%;
+    height: 150px;
+    width: 100vw;
+}
+
+.navbar .container .navbar-nav .menu.active {
+    top: 100%;
+}
+
+.navbar .container .navbar-nav .menu li {
+    display: block;
+}
+
+.navbar .container .navbar-nav .menu a {
+    color: black;
+    border-bottom: 5px black;
+}
+
+.navbar .container .navbar-extra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .container .navbar-extra .logo {
+    width: 120px;
+}
+
+
+/* title section */
+.football-title {
+    text-align: center;
+    background-image: url(../ASSETS/stadium.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250px;
+}
+
+.football-title h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.football-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 166, 0);
+}
+
+.football-title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 8%, rgba(255, 255, 255, 0) 50%);
+}
+
+
+/* livestream section */
+.football-yt {
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+.football-yt .football-video {
+    width: 100%;
+    height: 250px;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    margin: 8px 0px 0px;
+}
+
+.footer-links .menu {
+    list-style: none;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-medsos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-medsos .facebook {
+    background: blue;
+}
+
+
+
+
+/* ukuran tablet */
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(126, 126, 126);
+    }
+
+    .football-yt .football-video {
+        height: 500px;
+    }
+}
+
+/* Ukuran dekstop */
+@media (min-width: 1366px) {
+    body {
+        max-width: 1366px;
+        margin: auto;
+    }
+
+    .football-yt .football-video {
+        height: 600px;
+    }
 }
