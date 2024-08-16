@@ -115,6 +115,7 @@ body {
 }
 
 
+
 /* footer */
 footer {
     text-align: center;
@@ -144,7 +145,7 @@ footer {
 /* ukuran tablet */
 @media (min-width: 768px) {
     body {
-        background-color: rgb(126, 126, 126);
+        background-color: rgb(255, 255, 255);
     }
 
     .football-yt .football-video {
