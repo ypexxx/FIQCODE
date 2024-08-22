@@ -140,6 +140,11 @@ footer {
     background: blue;
 }
 
+.football-yt iframe {
+    width: 100%;
+    height: 250px;
+}
+
 
 
 
