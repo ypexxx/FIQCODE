@@ -818,6 +818,7 @@ video {
 
 body {
   font-family: 'Barlow', sans-serif;
+  overflow-x: hidden;
 }
 
 .hamburger-line {
