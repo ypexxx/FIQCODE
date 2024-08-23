@@ -853,18 +853,20 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.twitch iframe {
-  scale: 1.2;
-  display: absolute;
-}
+/* .twitch iframe {
+    scale: 1.2;
+    display: absolute;
+} */
 
 /* Tablet */
 
-@media (min-width: 768px) {
-  .twitch iframe {
-    scale: 2;
-  }
+/* @media (min-width: 768px) {
+    .twitch iframe {
+        scale: 2;
+    }
+} */
 
+@media (min-width: 768px) {
   .md\:w-\[768px\] {
     width: 768px;
   }
