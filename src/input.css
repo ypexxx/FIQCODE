@@ -28,14 +28,14 @@ body {
     @apply -rotate-45;
 }
 
-.twitch iframe {
+/* .twitch iframe {
     scale: 1.2;
     display: absolute;
-}
+} */
 
 /* Tablet */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .twitch iframe {
         scale: 2;
     }
-}
+} */
