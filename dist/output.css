@@ -709,6 +709,12 @@ video {
   justify-content: space-evenly;
 }
 
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -835,7 +841,6 @@ video {
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  overflow: hidden;
 }
 
 body {
