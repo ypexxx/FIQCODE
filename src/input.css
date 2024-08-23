@@ -29,19 +29,33 @@ body {
     @apply -rotate-45;
 }
 
+.underline-title {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 6px;
+}
+
+.share-underline {
+    content: '';
+    display: inline;
+    border-right: 1px solid black;
+    padding-right: 16px;
+}
+
 .footer-menu li {
     display: inline;
     color: #00F4E6;
 }
 
-/* .twitch iframe {
-    scale: 1.2;
+.twitch iframe {
     display: absolute;
-} */
+    width: 357px;
+    height: 200px;
+    margin: 0;
+}
 
 /* Tablet */
-/* @media (min-width: 768px) {
-    .twitch iframe {
-        scale: 2;
-    }
-} */
+@media (min-width: 768px) {
+  
+}
