@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
 }
 
 body {
@@ -26,6 +28,11 @@ body {
 
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
+}
+
+.footer-menu li {
+    display: inline;
+    color: #00F4E6;
 }
 
 /* .twitch iframe {
