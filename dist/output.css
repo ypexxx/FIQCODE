@@ -689,8 +689,8 @@ video {
   width: 10rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[357px\] {
@@ -823,6 +823,16 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -852,8 +862,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -994,8 +1004,21 @@ body {
 /* Tablet */
 
 @media (min-width: 768px) {
+  .md\:w-\[380px\] {
+    width: 380px;
+  }
+
   .md\:w-\[768px\] {
     width: 768px;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:tracking-widest {
+    letter-spacing: 0.1em;
   }
 }
 
