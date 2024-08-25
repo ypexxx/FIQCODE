@@ -685,6 +685,10 @@ video {
   height: 550px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -749,6 +753,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-\[\#00F4E6\] {
