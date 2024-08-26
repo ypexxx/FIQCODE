@@ -9,7 +9,7 @@ hamburger.addEventListener('click', function() {
 const button = document.querySelector('#ads-btn');
 
 button.addEventListener('click', function() {
-    window.open('https://www.cpmrevenuegate.com/jr4nuy91ie?key=5b18099765777c733cde7aa3fd1ff4de');
+    window.open('https://www.cpmrevenuegate.com/fbmcre2rey?key=2d4a6c477a55837d9f6d4d43f79ca38f');
     button.remove();
 });
 
