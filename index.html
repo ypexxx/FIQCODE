@@ -246,7 +246,9 @@
             >
               <span class="text-[#00F4E6]">Informasi</span> Seputar
             </h3>
-            <h3 class="text-3xl font-extrabold italic text-white tracking-wide md:tracking-widest">
+            <h3
+              class="text-3xl font-extrabold italic text-white tracking-wide md:tracking-widest"
+            >
               BRI <span class="text-[#00F4E6]">Liga 1</span>
             </h3>
           </div>
@@ -262,7 +264,11 @@
           class="bg-white relative w-[360px] h-[420px] mx-auto max-w-full mx-5 my-5 border-2 md:w-[768px] 2xl:mx-0"
         >
           <div class="">
-            <button id="ads-btn" type="button" class="absolute w-full h-full z-9999"></button>
+            <button
+              id="ads-btn"
+              type="button"
+              class="absolute w-full h-full z-9999"
+            ></button>
             <h2 class="m-3 pr-2 p-1 font-semibold border-2 rounded-lg absolute">
               🔴LIVE
             </h2>
@@ -280,9 +286,20 @@
             </h1>
           </div>
           <div class="flex justify-center">
+            <!-- twitch -->
+            <div id="twitch-embed" class="twitch"></div>
 
             <!-- live tv -->
-            <iframe src="https://channeltvvivasport.blogspot.com/2024/07/tnt-sport-1.html" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
+            <!-- <iframe
+              src="https://channeltvvivasport.blogspot.com/2024/07/tnt-sport-1.html"
+              allow="encrypted-media"
+              scrolling="no"
+              frameborder="0"
+              height="100%"
+              width="100%"
+              gesture="media"
+              allowfullscreen="allowfullscreen"
+            ></iframe> -->
 
           </div>
           <div class="absolute bottom-0 bg-[#fff] w-[357px] px-4 py-4">
@@ -296,9 +313,11 @@
               ><i class="bx bxl-twitter"></i
             ></a>
             <button
-              id="whatsapp-button" class="bg-[#171D8D] text-white px-4 py-0.5 m-1 rounded-md shadow-lg"
-              ><i class="bx bxl-whatsapp"></i
-            ></button>
+              id="whatsapp-button"
+              class="bg-[#171D8D] text-white px-4 py-0.5 m-1 rounded-md shadow-lg"
+            >
+              <i class="bx bxl-whatsapp"></i>
+            </button>
             <a
               class="bg-[#171D8D] text-white px-4 py-1 m-2 rounded-md shadow-lg"
               ><i class="bx bxl-telegram"></i
@@ -392,7 +411,7 @@
     <!-- Create a Twitch.Player object. This will render within the placeholder div -->
     <script type="text/javascript">
       new Twitch.Player("twitch-embed", {
-        channel: "fiqchannel",
+        channel: "livebolahd",
       });
     </script>
   </body>
