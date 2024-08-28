@@ -993,7 +993,7 @@ body {
   color: #00F4E6;
 }
 
-.twitch iframe {
+iframe {
   display: absolute;
   width: 357px;
   height: 200px;
