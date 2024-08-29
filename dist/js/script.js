@@ -17,6 +17,6 @@ button.addEventListener('click', function() {
 const content = "https://fiqbola.vercel.app/";
 
 document.querySelector('#whatsapp-button').addEventListener('click', function() {
-    let whatsappURL = "whatsapp://send?text"+(content);
+    let whatsappURL = "https://api.whatsapp.com/send?text"+(content);
     window.location.href = whatsappURL;
 })
