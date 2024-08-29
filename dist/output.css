@@ -993,12 +993,12 @@ body {
   color: #00F4E6;
 }
 
-iframe {
-  display: absolute;
-  width: 357px;
-  height: 200px;
-  margin: 0;
-}
+/* iframe {
+    display: absolute;
+    width: 357px;
+    height: 200px;
+    margin: 0;
+} */
 
 /* Tablet */
 

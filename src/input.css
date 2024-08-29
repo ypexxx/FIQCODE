@@ -52,12 +52,12 @@ body {
     color: #00F4E6;
 }
 
-iframe {
+/* iframe {
     display: absolute;
     width: 357px;
     height: 200px;
     margin: 0;
-}
+} */
 
 /* Tablet */
 @media (min-width: 768px) {
