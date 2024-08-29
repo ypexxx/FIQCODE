@@ -13,3 +13,10 @@ button.addEventListener('click', function() {
     button.remove();
 });
 
+// share button
+const content = "https://fiqbola.vercel.app/";
+
+document.querySelector('#whatsapp-button').addEventListener('click', function() {
+    let whatsappURL = "whatsapp://send?text"+(content);
+    window.location.href = whatsappURL;
+})
