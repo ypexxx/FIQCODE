@@ -30,7 +30,7 @@
   <body class="h-screen">
     <!-- Header Start -->
     <header
-      class="backdrop-blur-sm absolute top-0 left-0 w-full z-10 flex items-center h-14 truncate"
+      class="navbar backdrop-blur-sm absolute top-0 left-0 w-full z-10 flex items-center h-14 truncate"
     >
       <div class="container">
         <div class="flex items-center justify-between relative">
@@ -91,7 +91,7 @@
       <div class="container">
         <div class="">
           <div class="">
-            <div class="relative overflow-hidden w-full pt-[56.25%] rounded-lg">
+            <div class="relative overflow-hidden w-full pt-[56.25%] border-2 rounded-lg border-2 border-white">
               <!-- twitch -->
               <!-- <div id="twitch-embed" class="twitch"></div> -->
 
@@ -99,7 +99,7 @@
               <!-- <iframe class="w-[357px] h-[200px]" src="https://live.sportsnews.id/p/indosiar.html" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe> -->
 
               <!-- live viva -->
-              <iframe src="https://channeltvvivasport.blogspot.com/2024/07/hd1.html" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
+              <iframe src="https://zeeplayer.pages.dev/ch/hd1?id=hd1&type=m" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
             </div>
             <!-- <button
               id="ads-btn"
@@ -107,26 +107,92 @@
               class="absolute w-full h-full z-9999"
             ></button> -->
           </div>
-          <!-- <div class="mt-10">
-            <ul class="h-56 overflow-y-scroll block">
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-              <li>FIQ BOLA</li>
-            </ul>
-          </div> -->
+          <div class="schedule-container mt-10 border-2 border-[#ffffff] rounded-md overflow-hidden">
+            <h2 class="block bg-[#171D8D] p-1 text-[#00F4E6] font-bold text-xl text-center border-b-2">SCHEDULE</h2>
+            <div class="schedule h-56 overflow-y-scroll backdrop-blur-[4px]">
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <div class="flex justify-between">
+                  <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                  <h1 class="font-bold text-red-600">LIVE</h1>
+                </div>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+                <div class="flex justify-between">
+                  <div class="">
+                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="text-base">Today</p>
+                    <p class="text-base">17.30 WIB</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
