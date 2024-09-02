@@ -92,14 +92,8 @@
         <div class="">
           <div class="">
             <div class="relative overflow-hidden w-full pt-[56.25%] border-2 rounded-lg border-2 border-white">
-              <!-- twitch -->
-              <!-- <div id="twitch-embed" class="twitch"></div> -->
-
-              <!-- live rimba -->
-              <!-- <iframe class="w-[357px] h-[200px]" src="https://live.sportsnews.id/p/indosiar.html" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe> -->
-
-              <!-- live viva -->
-              <iframe src="https://zeeplayer.pages.dev/ch/hd1?id=hd1&type=m" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
+              <!-- iframe -->
+              <iframe id="stream" src="https://zeeplayer.pages.dev/ch/hd1?id=hd1&type=m" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
             </div>
             <!-- <button
               id="ads-btn"
@@ -107,96 +101,92 @@
               class="absolute w-full h-full z-9999"
             ></button> -->
           </div>
-          <div class="schedule-container mt-10 border-2 border-[#ffffff] rounded-md overflow-hidden">
-            <h2 class="block bg-[#171D8D] p-1 text-[#00F4E6] font-bold text-xl text-center border-b-2">SCHEDULE</h2>
-            <div class="schedule h-56 overflow-y-scroll backdrop-blur-[4px]">
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <div class="flex justify-between">
-                  <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                  <h1 class="font-bold text-red-600">LIVE</h1>
-                </div>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+        </div>
+      </div>
+    </section>
+    <!-- Livestreaming section end -->
+
+    <!-- schedule section -->
+     <section>
+      <div class="schedule-container mt-10 mx-4 border-2 border-[#ffffff] rounded-md overflow-hidden">
+        <h2 class="block bg-[#171D8D] p-1 text-[#00F4E6] font-bold text-xl text-center border-b-2">SCHEDULE</h2>
+        <div class="schedule max-h-80 overflow-y-scroll backdrop-blur-[4px]">
+          <!-- schedule 1 -->
+          <div id="schedule1" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+            <div class="flex justify-between">
+              <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+              <h1 class="font-bold text-red-600">LIVE</h1>
+            </div>
+            <div class="flex justify-between">
+              <div class="">
+                <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
               </div>
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+              <div class="flex flex-col justify-end">
+                <p class="text-base">Today</p>
+                <p class="text-base">17.30 WIB</p>
               </div>
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+            </div>
+          </div>
+          <!-- schedule 2 -->
+          <div id="schedule2" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+            <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+            <div class="flex justify-between">
+              <div class="">
+                <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
               </div>
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+              <div class="flex flex-col justify-end">
+                <p class="text-base">Today</p>
+                <p class="text-base">17.30 WIB</p>
               </div>
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+            </div>
+          </div>
+          <!-- schedule 3 -->
+          <div id=schedule3 class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+            <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+            <div class="flex justify-between">
+              <div class="">
+                <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
               </div>
-              <div class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
-                <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
-                <div class="flex justify-between">
-                  <div class="">
-                    <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
-                    <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
-                  </div>
-                  <div class="flex flex-col justify-end">
-                    <p class="text-base">Today</p>
-                    <p class="text-base">17.30 WIB</p>
-                  </div>
-                </div>
+              <div class="flex flex-col justify-end">
+                <p class="text-base">Today</p>
+                <p class="text-base">17.30 WIB</p>
+              </div>
+            </div>
+          </div>
+          <!-- schedule 4 -->
+          <div id="schedule4" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+            <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+            <div class="flex justify-between">
+              <div class="">
+                <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+              </div>
+              <div class="flex flex-col justify-end">
+                <p class="text-base">Today</p>
+                <p class="text-base">17.30 WIB</p>
+              </div>
+            </div>
+          </div>
+          <!-- schedule 5 -->
+          <div id="schedule5" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+            <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
+            <div class="flex justify-between">
+              <div class="">
+                <p class="text-sm text-black shadow-2xl mb-0.5"><img class="inline w-5 mr-2" src="dist/img/liga1/PSS.png">PSS Sleman</p>
+                <P class="text-sm text-black"><img class="inline w-5 mr-2" src="dist/img/liga1/PERSIJA.png">PERSIJA Jakarta</P>
+              </div>
+              <div class="flex flex-col justify-end">
+                <p class="text-base">Today</p>
+                <p class="text-base">17.30 WIB</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Livestreaming section end -->
+     </section>
 
     <!-- Footer section start -->
     <footer class="fixed w-full bottom-0">
@@ -241,17 +231,7 @@
     </script>
 
     <!-- Script -->
-    <script src="/dist/js/script.js"></script>
+    <script src="./dist/js/script.js"></script>
 
-    <!-- video twitch -->
-    <!-- Load the Twitch embed script -->
-    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-    <script type="text/javascript">
-      new Twitch.Player("twitch-embed", {
-        channel: "fiqchannel",
-      });
-    </script>
   </body>
 </html>
