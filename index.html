@@ -87,13 +87,23 @@
     <!-- Hero section end -->
 
     <!-- Livestreaming section start -->
-    <section class="mt-16 p-5 truncate">
+    <section class="mt-16 p-5 pb-12 truncate">
       <div class="container">
         <div class="">
-          <div class="">
+          <div class="relative">
+            <div class="bg-[#171D8D] absolute w-full pt-[71%] min-h-[270px] rounded-xl"></div>
             <div class="relative overflow-hidden w-full pt-[56.25%] border-2 rounded-lg border-2 border-white">
               <!-- iframe -->
-              <iframe id="stream" src="https://zeeplayer.pages.dev/ch/hd1?id=hd1&type=m" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
+              <iframe id="stream" class="stream" src="https://zeeplayer.pages.dev/ch/hd1?id=hd1&type=m" allow="encrypted-media" scrolling="no" frameborder="0" height="100%" width="100%" gesture="media" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+            <div class="relative overflow-hidden whitespace-nowrap box-border">
+              <p class="running-text text-[#00F4E6] text-sm">Buka Link di Google Chrome untuk tampilan Full Screen!</p>
+                <div class="flex justify-between px-5">
+                  <h1 class="font-bold text-red-600">LIVE</h1>
+                  <div class="">
+                    <button class="bg-white text-sm px-2 font-semibold text-[#171D8D] rounded-md">CH 1</button>
+                  </div>
+                </div>
             </div>
             <!-- <button
               id="ads-btn"
@@ -108,11 +118,11 @@
 
     <!-- schedule section -->
      <section>
-      <div class="schedule-container mt-10 mx-4 border-2 border-[#ffffff] rounded-md overflow-hidden">
+      <div class="schedule-container mt-10 mb-5 mx-4 border-2 border-[#ffffff] rounded-md overflow-hidden">
         <h2 class="block bg-[#171D8D] p-1 text-[#00F4E6] font-bold text-xl text-center border-b-2">SCHEDULE</h2>
-        <div class="schedule max-h-80 overflow-y-scroll backdrop-blur-[4px]">
+        <div class="schedule h-auto overflow-y-scroll backdrop-blur-[4px]">
           <!-- schedule 1 -->
-          <div id="schedule1" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+          <div id="schedule1" class="schedule-list p-2 border-b-2 border-dotted border-white">
             <div class="flex justify-between">
               <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
               <h1 class="font-bold text-red-600">LIVE</h1>
@@ -129,7 +139,7 @@
             </div>
           </div>
           <!-- schedule 2 -->
-          <div id="schedule2" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+          <div id="schedule2" class="schedule-list p-2 border-b-2 border-dotted border-white">
             <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
             <div class="flex justify-between">
               <div class="">
@@ -143,7 +153,7 @@
             </div>
           </div>
           <!-- schedule 3 -->
-          <div id=schedule3 class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+          <div id=schedule3 class="schedule-list p-2 border-b-2 border-dotted border-white">
             <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
             <div class="flex justify-between">
               <div class="">
@@ -157,7 +167,7 @@
             </div>
           </div>
           <!-- schedule 4 -->
-          <div id="schedule4" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+          <div id="schedule4" class="schedule-list p-2 border-b-2 border-dotted border-white">
             <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
             <div class="flex justify-between">
               <div class="">
@@ -171,7 +181,7 @@
             </div>
           </div>
           <!-- schedule 5 -->
-          <div id="schedule5" class="schedule-list p-2 border-b-2 border-dotted border-[#00F4E6]">
+          <div id="schedule5" class="schedule-list p-2 border-b-2 border-dotted border-white">
             <h1 class="text-base font-medium mb-1 text-black">BRI Liga 1</h1>
             <div class="flex justify-between">
               <div class="">
@@ -189,7 +199,7 @@
      </section>
 
     <!-- Footer section start -->
-    <footer class="fixed w-full bottom-0">
+    <footer class="w-full">
       <div class="">
         <div class="text-center">
           <div class="bg-white rounded-t-2xl px-4 py-3">
@@ -212,12 +222,6 @@
               ><i class="bx bxl-telegram pr-2"></i
               ><span class="pb-5 mb-5">Join Grup</span></a
             >
-          </div>
-          <div class="bg-[#00F4E6] text-center">
-            <p class="text-xs font-medium p-1">
-              Copyright &copy; 2024 by
-              <span>FIQ PEDIA. All Right Reserved</span>
-            </p>
           </div>
         </div>
       </div>
