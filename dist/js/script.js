@@ -27,17 +27,17 @@ schedule2.addEventListener('click', function() {
 // schedule3
 const schedule3 = document.querySelector('#schedule3');
 schedule3.addEventListener('click', function() {
-    stream.setAttribute('src', 'https://live.sportsnews.id/p/eleven-sports-1-pt.html');
+    stream.setAttribute('src', 'https://zeeplayer.pages.dev/tv/arena1p?id=arena1p&type=m');
 });
 
 // schedule4
 const schedule4 = document.querySelector('#schedule4');
 schedule4.addEventListener('click', function() {
-    stream.setAttribute('src', 'https://channeltvvivasport.blogspot.com/2024/08/tntsport4.html');
+    stream.setAttribute('src', 'https://zeeplayer.pages.dev/tv/arena2p?id=arena1p&type=m');
 });
 
 // schedule5
 const schedule5 = document.querySelector('#schedule5');
 schedule5.addEventListener('click', function() {
-    stream.setAttribute('src', 'https://live.sportsnews.id/p/eleven-sports-2-pt.html');
+    stream.setAttribute('src', 'https://zeeplayer.pages.dev/tv/arena3p?id=arena1p&type=m');
 });
