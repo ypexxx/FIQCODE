@@ -667,6 +667,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -681,10 +685,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.min-h-\[270px\] {
-  min-height: 270px;
 }
 
 .min-h-\[250px\] {
