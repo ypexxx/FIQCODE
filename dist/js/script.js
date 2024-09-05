@@ -6,9 +6,10 @@ hamburger.addEventListener('click', function() {
 });
 
 
+
+
 // stream section
 const stream = document.querySelector('#stream');
-
 
 
 // schedule
